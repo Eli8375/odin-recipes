@@ -1,0 +1,33 @@
+html {
+    background-color: beige;
+}
+
+body {
+    background-color: honeydew;
+    margin: 100px;
+    padding: 15px;
+    border: hotpink solid 5px;
+    border-radius: 15px;
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    border: 2px hotpink solid;
+    border-radius: 5px;
+    border-color: hotpink;
+    color: hotpink;
+}
+
+a:hover {
+    border: 2px solid hotpink;
+    border-radius: 5px;
+    border-color: hotpink;
+    color: honeydew;
+    background-color: hotpink;
+    transition: 0.25s ease-in;
+}
